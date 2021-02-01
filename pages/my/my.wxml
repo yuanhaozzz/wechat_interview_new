@@ -1,0 +1,14 @@
+<view class="center-wrapper">
+    <!-- 个人信息 -->
+    <view class="center-info flex-center">
+        <image class="center-info-avatar" src="https://tse2-mm.cn.bing.net/th/id/OIP.ZpeoUS63GzlnOAzc21eEQQHaE7?w=297&h=197&c=7&o=5&pid=1.7" lazy-load="false" binderror="" bindload=""></image>
+        <text class="center-info-name">Hush now、</text>
+    </view>
+    <!-- 菜单 -->
+    <view class="center-menu">
+        <view class="center-menu-item flex-space-between" wx:for="{{menu}}">
+            <text class="center-menu-item-text">{{item.name}}</text>
+            <image mode="widthFix" src="/public/images/right_arrow.png" class="center-menu-item-image" />
+        </view>
+    </view>
+</view>

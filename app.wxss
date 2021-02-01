@@ -1,0 +1,37 @@
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-start{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.flex-between, .flex-space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-around, .flex-space-around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+button{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
+}
